@@ -7,7 +7,3 @@ components:
     - widgets/seedscard-transaction-table-descriptor.yaml
   pageModels:
     - pageModels/dashboard-descriptor.yaml
-  fragments:
-    - fragments/seeds_card-descriptor.yaml
-    - fragments/seeds_card_ng-descriptor.yaml
-    - fragments/seedscard-transaction-table-descriptor.yaml

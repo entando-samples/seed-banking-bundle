@@ -1,6 +1,0 @@
-code: seedscard-transaction-table
-guiCode: >-
-  <#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL />seed-banking-bundle/widgets/seedscard-transaction/runtime.js"></script><script async
-  src="<@wp.resourceURL />seed-banking-bundle/widgets/seedscard-transaction/vendor.js"></script><script async
-  src="<@wp.resourceURL />seed-banking-bundle/widgets/seedscard-transaction/main.js"></script><seedscardtransaction-table  
-  pagination-mode="pagination" />
