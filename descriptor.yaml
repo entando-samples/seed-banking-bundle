@@ -7,3 +7,5 @@ components:
     - widgets/seedscard-transaction-table-descriptor.yaml
   pageModels:
     - pageModels/dashboard-descriptor.yaml
+  plugins:
+   - plugins/standard-demo-banking-descriptor.yaml
