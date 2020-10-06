@@ -5,16 +5,16 @@ titles:
 group: free
 customUi: >-
   <#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL
-  />widgets/seeds-card-ng/js/main-es2015.js"></script><script async
+  />seed-banking-bundle/widgets/seeds-card-ng/js/main-es2015.js"></script><script async
   src="<@wp.resourceURL
-  />widgets/angular/list-item/js/runtime-es2015.js"></script><script async
+  />seed-banking-bundle/widgets/angular/list-item/js/runtime-es2015.js"></script><script async
   src="<@wp.resourceURL
-  />widgets/angular/list-item/js/polyfills-es2015.js"></script><@wp.currentWidget
+  />seed-banking-bundle/widgets/angular/list-item/js/polyfills-es2015.js"></script><@wp.currentWidget
   param="config" configParam="cardname" var="configName" /><ng-seedscard-details
   cardname="${configName}"/>
 configUi:
   customElement: seeds-card-config
   resources:
-    - widgets/seeds-card-config/static/js/runtime.js
-    - widgets/seeds-card-config/static/js/vendor.js
-    - widgets/seeds-card-config/static/js/main.js
+    - seed-banking-bundle/widgets/seeds-card-config/static/js/runtime.js
+    - seed-banking-bundle/widgets/seeds-card-config/static/js/vendor.js
+    - seed-banking-bundle/widgets/seeds-card-config/static/js/main.js
