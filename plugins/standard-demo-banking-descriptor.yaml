@@ -1,5 +1,5 @@
 name: standard-demo-banking
-image: 'docker.io/jwhite101/banking:0.0.18'
+image: 'docker.io/entandodemo/banking:0.0.18'
 dbms: none
 healthCheckPath: /management/health
 roles:

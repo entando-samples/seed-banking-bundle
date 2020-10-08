@@ -2,10 +2,11 @@ code: seed-banking-bundle
 description: Seed Banking Bundle
 components:
   widgets:
+    - widgets/list_item-descriptor.yaml
     - widgets/seeds_card-descriptor.yaml
     - widgets/seeds_card_ng-descriptor.yaml
     - widgets/seedscard-transaction-table-descriptor.yaml
   pageModels:
     - pageModels/dashboard-descriptor.yaml
   plugins:
-   - plugins/standard-demo-banking-descriptor.yaml
+    - plugins/standard-demo-banking-descriptor.yaml
